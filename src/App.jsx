@@ -8,7 +8,7 @@ import OurCampuses from "./Component/Body/OurCampuses";
 import Footer from "./Component/Footer/Footer";
 import FacultyProfile from "./Component/Body/FacultyProfile";
 import Message from "./Component/Body/Message";
-import Announcements from "./Component/Body/Announcements";
+// import Announcements from "./Component/Body/Announcements";
 import Card from "./Component/Body/Card";
 import News from "./Component/Body/News";
 import OurPartners from "./Component/Body/OurPartners";
@@ -40,7 +40,7 @@ function App() {
           element={
             <>
               <HomeBody />
-              <Announcements />
+              {/* <Announcements /> */}
               <Message />
               <Card />
               <StudyProgramsSection />
