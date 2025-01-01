@@ -27,7 +27,7 @@ const News = () => {
     },
     {
       id: 2,
-      image: 'News2.jpg',
+      image: 'News4.jpg',
       title: "Industry Partnership",
       description: "Collaboration with leading tech companies",
       link: "/news/partnership"
