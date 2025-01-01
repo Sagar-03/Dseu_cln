@@ -5,10 +5,10 @@ const HomeBody = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const slides = [
-    { image: "../src/assets/fifth.jpg" },
-    { image: "../src/assets/Banner-12.PNG" },
-    { image: "../src/assets/6.jpg" },
-    { image: "../src/assets/7.png" }
+    { image: "../src/assets/Banner/5.JPG" },
+    { image: "../src/assets/Banner/7.PNG" },
+    { image: "../src/assets/Banner/6.JPG" },
+    { image: "../src/assets/Banner/8.PNG" }
   ];
 
   useEffect(() => {
