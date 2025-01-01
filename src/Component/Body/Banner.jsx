@@ -1,14 +1,20 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
+// Import images directly
+import Image5 from '@/assets/Banner/5.JPG';
+import Image6 from '@/assets/Banner/6.JPG';
+import Image7 from '@/assets/Banner/7.PNG';
+import Image8 from '@/assets/Banner/8.PNG';
+
 const HomeBody = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const slides = [
-    { image: "../src/assets/Banner/5.JPG" },
-    { image: "../src/assets/Banner/7.PNG" },
-    { image: "../src/assets/Banner/6.JPG" },
-    { image: "../src/assets/Banner/8.PNG" }
+    { image: Image5 },
+    { image: Image7 },
+    { image: Image6 },
+    { image: Image8 }
   ];
 
   useEffect(() => {
