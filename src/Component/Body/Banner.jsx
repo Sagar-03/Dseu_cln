@@ -6,7 +6,7 @@ const HomeBody = () => {
 
   const slides = [
     { image: "../src/assets/fifth.jpg" },
-    { image: "../src/assets/Banner-12.png" },
+    { image: "../src/assets/Banner-12.PNG" },
     { image: "../src/assets/6.jpg" },
     { image: "../src/assets/7.png" }
   ];
