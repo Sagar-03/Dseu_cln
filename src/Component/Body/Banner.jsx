@@ -2,10 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 // Import images directly
-import Image5 from '@/assets/Banner/5.JPG';
-import Image6 from '@/assets/Banner/6.JPG';
-import Image7 from '@/assets/Banner/7.PNG';
-import Image8 from '@/assets/Banner/8.PNG';
+import Image5 from '../assets/Banner/5.JPG';
+import Image6 from '../assets/Banner/6.JPG';
+import Image7 from '../assets/Banner/7.PNG';
+import Image8 from '../assets/Banner/8.PNG';
 
 const HomeBody = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
